@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+    font-size: 20px;
+}
+
+body{
+	background-color: #ffffff;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+	color: #000000;
+	font-weight: bold;
+}
+img{
+	width: 800px;
+	height: 400px;
+	display: block;
+	margin: auto;
+}
+section article p{
+    font-size: 0.8rem;
+    text-align: justify;
+}
+div.wrap{
+    margin: 0 auto;
+    width: 90%;
+}
+h2{
+	text-decoration: underline;
+}
+p:first-letter{
+    color: #d42114;
+    font-size: 2.5rem;
+}
+a[href^="https"]:link{ 
+    color: red;
+}
+
+a{
+	font-weight: bold;
+}
+a[href^="https"]:link { 
+  color: #bd0600;
+}
+footer{
+    background-color: #000000;
+    color: #C4D8F2;
+    font-size: 0.7REM;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    height: 50px;
+    align-content: center;
+}
+
+.navbar{
+	background-color: #01133bd5;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	align-items: center;
+}
+
+.slogo{
+ width: 400px;
+ height: 100px;
+ grid-column: 2/3;
+
+}
+
+.menu{
+	grid-column: 1 / 8;
+	display: flex;
+	justify-content: space-around;
+}
+.menu>li{
+	list-style: none;
+}
+
+
+.menu-bar{
+	display: none;
+}
